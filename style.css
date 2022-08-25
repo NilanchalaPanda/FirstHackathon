@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+
+/* NAVIGATOIN BAR  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5% 2% 5%;
+}
+
+ul{
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* HERO SECTION STARTS  */
+#hero{
+    background-color: rgb(88, 59, 59);
+    border-radius: 5rem;
+    box-shadow: rgb(255, 255, 255) 0px 15px 30px 4px;
+    display: flex;
+    height: 77vh;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero div{
+    display: flex;
+    margin-left: 10rem; 
+}
+#hero .text{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+#hero span{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#hero h1{
+    font-size: 6rem;
+}
+#hero p{
+    font-size: 1.1rem;
+}
+#hero .handles ul{
+    margin-right: 1.7rem;
+    width: 2vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 6;
+}
+#hero .fa-brands{
+    font-size: 1.7rem;
+}
+#hero .fa-brands:hover{
+    color: rgb(243, 137, 7);
+}
+
+/* ABOUT US SECTION */
+#about{
+    background-color: #fff;
+    color: black;
+}
+#about .black{
+    color: black;
+}
+#about h1 , #contact h1{
+    margin-top: 6rem;
+    width: 100vw;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#about span{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid wheat;
+    padding-bottom: 3px;
+}
+#about .container{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+    padding: 3rem; 
+    /* background-color: rgb(89, 44, 44);
+    border-radius: 60px;  */
+}
+.mission, .vission{
+    align-items: center;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    box-shadow: rgba(249, 114, 114, 0.907) 0px 14px 28px,rgba(249, 114, 114, 0.907) 0px 10px 10px;
+    border-radius: 3rem;
+    padding: 3rem;
+    background-color: rgb(88, 59, 59);
+}
+
+/* CONTACT US SECTION */
+/* The h1 tag of Contact us have same properties as of About us. Hence I have cluubed them together.  */
+
+#contact .container{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form{
+    background-color: rgb(115, 65, 65);
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+/* FOOTER SECTIN STARTS HERE */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(115, 65, 65);
+    font-size: 1.7rem;
+}
