@@ -31,7 +31,7 @@ ul{
     justify-content: space-around;
 }
 ul li a:hover{
-    color: rgba(250, 94, 16, 0.858);
+    color: rgb(250, 94, 16);
 }
 /* HERO SECTION STARTS  */
 #hero{
@@ -65,9 +65,30 @@ ul li a:hover{
 }
 #hero h1{
     font-size: 6rem;
-    color: rgba(250, 94, 16, 0.858);
-}
+    color: rgb(250, 94, 16);
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 8s steps(7) infinite, blinking-cursor 0.8s infinite;
+  animation-fill-mode: forwards;
+    border-right: 1rem solid white;
+    animation-delay: 1s;
 
+}
+@keyframes typewriter {
+    0% { width:0 }
+    25% { width: 70% }
+    48% { width: 100% }
+    50% { width: 100% }
+    55% { width: 100% }
+    75% { width: 70%; }
+    85% { width: 30%; }
+    100% { width: 0; }
+  }
+  
+  @keyframes blinking-cursor {
+    from { border-color: transparent }
+    to { border-color: #white }
+  }
 #hero p{
     font-size: 1.1rem;
 }
@@ -203,6 +224,8 @@ ul li a:hover{
     margin-left: 20px;
 }
 .text-field{
+    color: #190036;
+    font-size: 1rem;
     margin-top: 5px;
     width: 20vw;
     margin-left: 20px;
@@ -215,18 +238,22 @@ ul li a:hover{
     align-items: center;
 }
 #Role{
+    color: #190036;
+    font-size: 1.1rem;
     margin-bottom: 10px;
     margin-top: 5px;
-    width: 20vw;
+    width: 21.5vw;
     margin-left: 20px;
     padding: 10px 10px;
     border: 1px solid #777;
     border-radius: 14px;
 }
 #Role option{
-    color: black;
+    color: #190036;
 }
 .email-field{
+    color: #190036;
+    font-size: 1.1rem;
     margin-top: 5px;
     width: 20vw;
     margin-left: 20px;
@@ -235,16 +262,16 @@ ul li a:hover{
     border-radius: 14px;
 }
 .btn{
-    font-size: large;
-    margin-top: 20px;
+    font-size: 1.3rem;
+    margin-top: 20px ;
     border-radius: 20px;
     color: #fff;
     padding:10px 20px;
     border: none;
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 140px;
     color: #034159;
-    border: 1px solid white
+    border: 1px solid white;
 }
 .btn:hover{
     background-color: #034159;
