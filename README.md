@@ -1,6 +1,6 @@
 # FirstHackathon
 
-##LINK : https://nilanchalapanda.github.io/FirstHackathon.github.io/
+### LINK : https://nilanchalapanda.github.io/FirstHackathon.github.io/
 
 > This was my first ever Hackathon. <br><br>
 > The Problem Statment was to create a Single Page Website with the help of HTML, CSS and Javascript only. And the statement that I choose was to create a Landing Page website for a hypothetical college club. <br><br>
